@@ -172,15 +172,93 @@ body::-webkit-scrollbar-thumb{
     align-items: center;
     justify-content: center;
 }
-.right-side-top{
+.right-side{
     height: 350px;
     background-color: white;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: left;
 }
-.right-side-bottom{
+
+.Service-title{
+    color: rgb(226, 49, 78);
+}
+.Service-desc{
+    margin-top: 20px;
+}
+.right-side{
     height: 350px;
     background-color: white;
     margin-top: 10px;
 }
+.Service-grid-outer{
+    width: 100%;
+    height: 450PX;
+    border: 1PX solid green;
+}
+.Service-grid-outer{
+    height: 420px;
+    margin-bottom: 15px;
+    background-color: #1A1A1A;
+ 
+}
+.grid-1{
+    height: 420px;
+    background-image: url('https://media.mopinion.com/wp-content/uploads/2019/08/28111758/Feedback-Insights.jpeg');
+    background-size: cover;
+    background-position: center;
+    
+}
+.grid-2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+.grid-2 h3{
 
+    color: white;
+    
+}
+.grid-2 h5{
+    color:  rgb(226, 49, 78);
+
+}
+.grid-2 p{
+    color:  #7f8c8d;
+}
+.grid-3{
+    height: 420px;
+    background-image: url('https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/223333626/original/9c483df37db0fab4c482b854511d1f2332f6592e/do-full-stack-development.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.grid-4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: left;
+}
+.grid-4 h3{
+    color: white;
+}
+.grid-4 h5{
+    color:  rgb(226, 49, 78);
+}
+.grid-4 p{
+    color:  #7f8c8d;
+}
+.Service-grid-inner a{
+    color:  rgb(226, 49, 78);
+    text-align: left;
+}
+.btn{
+    background-color: #1A1A1A!important;
+    border-color: #1A1A1A!important;
+}
+.btn:hover{
+    color: rgb(95, 4, 19)!important;
+}
 /* Services area */
