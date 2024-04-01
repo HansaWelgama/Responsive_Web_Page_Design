@@ -72,5 +72,72 @@ body::-webkit-scrollbar-thumb{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    
+  
 
 }
+.home-container{
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.title-text{
+    color: white;
+}
+.header-text{
+    font-weight: 500;
+    font-size: 50px;
+    color: white;
+    line-height: 45px;
+}
+
+.home-widgets-outer{
+    margin-top: -120px;
+}
+.widget-outer{
+    height: 300px;
+    margin-bottom: 20px;
+}
+.widget-inner{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 1px solid #ecf0f1;
+    display: flex;
+    flex-direction: column;
+
+}
+.widget-inner-top{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.widget-inner-bottom{
+    flex: 1;
+    padding: 10px;
+}
+.widget-icon{
+    width: 80px;
+    height: 70%;
+    border-radius: 100%;
+    background-color: rgba(231, 121, 32, 0.995);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.widget-icon svg{
+    width: 80%;
+    height: 80%;
+}
+.widget-header{
+    text-align: center;
+}
+.widget-desc{
+    text-align: center;
+    color: #95a5a6;
+}
+/* Home area  */
