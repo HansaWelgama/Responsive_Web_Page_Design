@@ -465,3 +465,32 @@ body::-webkit-scrollbar-thumb{
     }
 }
 /* Contact-area */
+
+/* footer area */
+.footer{
+background-color: #333;
+width: 100%;
+padding: 50px 0;
+
+}
+.footer-title, .footer-desc{
+    text-align: center;
+    color: white;
+}
+.footer-element{
+    height: 200px;
+}
+.copyright-text-outer{
+    height: 100px;
+    text-align: center;
+    color: white;
+    
+}
+.copyright-text-outer a {
+    color: #e89f7d;
+    text-decoration: none;
+}
+.copyright-text-outer a:hover {
+    color: #76756e;
+    text-decoration: underline;
+}
