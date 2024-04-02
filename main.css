@@ -56,6 +56,7 @@ body::-webkit-scrollbar-thumb{
 .outer{
     width: 100%;
     height: 400px;
+
     border: 1px solid red;
     display: flex;
     align-items: center;
@@ -146,119 +147,321 @@ body::-webkit-scrollbar-thumb{
 }
 /* Home area  */
 
-/* Services area */
+/* Home-area */
 
-.Services-outer{
+/* Service-area */
+.service-outer{
     min-height: 750px;
     width: 100%;
-    margin-top: 200px;
-    background-image: url("https://images02.nicepage.com/c461c07a441a5d220e8feb1a/24af2a14af16514caf47360a/33581d05cec4a3308cd79979a51eed9d.jpeg");
-    background-position: left;
+    background-image: url('https://images02.nicepage.com/c461c07a441a5d220e8feb1a/24af2a14af16514caf47360a/33581d05cec4a3308cd79979a51eed9d.jpeg');
     background-size: cover;
+    background-position: left;
+    margin-top: 200px;
 }
-.Service-container{
+.service-container{
     min-height: 750px;
-    
 }
 .row{
     height: 100%;
 }
-.Service-container-inner{
+.service-containner-inner{
     height: 100%;
 }
-.Service-right-side{
+.service-right-side{
     min-height: 750px;
+
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: stretch;
 }
-.right-side{
+.right-top{
     height: 350px;
     background-color: white;
     margin-bottom: 20px;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    align-items: left;
+    justify-content: center;
 }
-
-.Service-title{
-    color: rgb(226, 49, 78);
+.right-top:last-child{
+    margin-bottom: 0;
 }
-.Service-desc{
-    margin-top: 20px;
-}
-.right-side{
+.right-bottom{
     height: 350px;
     background-color: white;
-    margin-top: 10px;
 }
-.Service-grid-outer{
+.service-top-title{
+    color: #FE214F;
+}
+.service-top-desc{
+    margin-top: 20px;
+}
+
+.service-grid-outer{
     width: 100%;
-    height: 450PX;
-    border: 1PX solid green;
+    height: auto;
 }
-.Service-grid-outer{
+.service-grid-inner{
     height: 420px;
-    margin-bottom: 15px;
     background-color: #1A1A1A;
- 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .grid-1{
-    height: 420px;
-    background-image: url('https://media.mopinion.com/wp-content/uploads/2019/08/28111758/Feedback-Insights.jpeg');
+
+    background-image: url('https://images01.nicepage.com/2c/36/2c363cea606f515e74b1e427f2b437c0.jpeg');
     background-size: cover;
     background-position: center;
-    
-}
-.grid-2{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: left;
-}
-.grid-2 h3{
-
-    color: white;
-    
-}
-.grid-2 h5{
-    color:  rgb(226, 49, 78);
-
-}
-.grid-2 p{
-    color:  #7f8c8d;
 }
 .grid-3{
-    height: 420px;
-    background-image: url('https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/223333626/original/9c483df37db0fab4c482b854511d1f2332f6592e/do-full-stack-development.jpg');
+
+    background-image: url('	https://images01.nicepage.com/9b/3f/9b3fb50d7f1060045a2fb67bc06f4802.jpeg');
     background-size: cover;
     background-position: center;
 }
-.grid-4{
+.link , .service-grid-title{
+    color: #FE214F;
+    text-decoration: none;
+}
+.link:hover{
+    color: #690c39;
+
+}
+.service-grid-header{
+    color: white;
+}
+.desc-service-grid{
+    color: #bdc3c7;
+}
+
+
+/* Service-area */
+
+/* Products area */
+.Product-outer{
+    min-height: 800px;
+    width: 100%;
+}
+.Product-container{
+    min-height: 900px;
+
+    display: flex;
+    flex-direction: column;
+}
+ .Product-container-top{
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.product-title{
+    color:  rgb(226, 49, 78);
+}
+.product-header{
+    text-align: center;
+}
+.Product-container-bottom{
+    flex: 1;
+
+}
+.product-container-inner-top{
+    height: 300px;
+
+}
+.product-container-inner-bottom{
+    height: 300px;
+
+    margin-top: 30px;
+}
+.Product-container-bottom .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+.product-container-inner {
+
+    margin-right: 10px;
+    width: calc(100% - 10px);
+}
+.product-container-inner.p-grid-1,
+.product-container-inner.p-grid-2,
+.product-container-inner.p-grid-3,
+.product-container-inner.p-grid-4,
+.product-container-inner.p-grid-5,
+.product-container-inner.p-grid-6,
+.product-container-inner.p-grid-7,
+.product-container-inner.p-grid-8 {
+    width: 24%;
+    height: 300px;
+}
+.p-grid-1{
+    background-image: url("https://images01.nicepage.com/7e/45/7e4509294d9c93994b4554a2eb024256.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.p-grid-2{
+    background-image: url("https://images01.nicepage.com/62/b4/62b459d50d19ef79cf384bb9382eaac0.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.p-grid-3{
+    background-image: url("https://images01.nicepage.com/c4/bd/c4bdad4b17efd19ce10ea44a0037b0f3.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.p-grid-4{
+    background-image: url("https://images01.nicepage.com/0a/45/0a45e2ac7da4d055b593212a1504c67d.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.p-grid-5{
+    background-image: url("https://images01.nicepage.com/db/24/db242e891a1c4503418a1493f6195fa0.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.p-grid-6{
+    background-image: url("https://images01.nicepage.com/2e/d7/2ed765c31dde5b370a7b118c60af0ebe.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.p-grid-7{
+    background-image: url("https://images01.nicepage.com/8b/1f/8b1f3212bc72535668c846f921cca0d4.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.p-grid-8{
+    background-image: url("https://images01.nicepage.com/a0/35/a035e0bec8f11f492002184ca6e6ac82.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* About-area */
+.About-outer{
+    width: 100%;
+    height: 520px;
+    position: relative;
+}
+.About-outer img{
+    width: 100%;
+    height: 100%;
+    filter: blur(1px);
+
+}
+.dark-shadow-outer{
+    background-color: rgba(19, 15, 64,0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-content{
+    width: 600px;
+    height: 80%;
+    border: 1px solid white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-title{
+    color: #FE214F;
+    text-align: center;
+}
+.about-header{
+    color: white;
+    text-align: center;
+}
+/* About-area */
+
+
+.Solution-outer{
+    width: 100%;
+    min-height: 500px;  
+
+}
+.Solution-container{
+    width: 100%;
+    min-height: 500px;
+}
+.Solution-wrapper-left{
+    width: 100%;
+    min-height: 500px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    text-align: left;
+    
 }
-.grid-4 h3{
+.Solution-wrapper-left h5{
+    color:  rgb(226, 49, 78);
+    margin-left: 10px;
+}
+.Solution-wrapper-left h3{
+    margin-left: 10px;
+}
+.Solution-wrapper-right{
+    width: 100%;
+    min-height: 500px;
+
+    background-image: url("https://images01.nicepage.com/e9/ef/e9ef3d8ce1c247c217f1f02fa46cfd1a.png");
+    background-position: center;
+    background-size: 500px;
+    background-repeat: no-repeat;
+}
+
+/* Contact-area */
+
+.Contact-outer{
+    width: 100%;
+    height: 500px;
+    background-color: #000;
+}
+.contact-inner{
+    display: flex;
+    height: 100%;
+}
+.contact-left{
+    flex: 1;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contact-right{
+    flex:1;
+    height: 100%;
+
+}
+.header-title, .address, .contact{
     color: white;
 }
-.grid-4 h5{
-    color:  rgb(226, 49, 78);
+.email{
+    color: #FE214F;
 }
-.grid-4 p{
-    color:  #7f8c8d;
+@media only screen and (max-width:992px){
+    .contact-inner{
+        display: block;
+    }
+    .contact-left, .contact-right{
+        height: 500px;
+    }
+    .contact-us-outer{
+        height: 1000px;
+    }
 }
-.Service-grid-inner a{
-    color:  rgb(226, 49, 78);
-    text-align: left;
-}
-.btn{
-    background-color: #1A1A1A!important;
-    border-color: #1A1A1A!important;
-}
-.btn:hover{
-    color: rgb(95, 4, 19)!important;
-}
-/* Services area */
+/* Contact-area */
